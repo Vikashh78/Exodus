@@ -2,7 +2,6 @@ import { useState } from 'react'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './customHooks/UseCurrencyinfo'
 import './App.css'
-import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -75,7 +74,6 @@ function App() {
                     </form>
                 </div>
             </div>
-          <Analytics />
         </div>
     );
 }
